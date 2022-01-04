@@ -1,0 +1,18 @@
+Dependencies
+------------
+This layer depends on:
+
+URI: git://github.com/openembedded/oe-core.git
+branch: hardknott
+revision: HEAD
+
+URI: git://github.com/openembedded/meta-oe.git
+branch: hardknott
+revision: HEAD
+
+Send pull requests to openembedded-devel@lists.openembedded.org with '[meta-gnome][hardknott]' in the subject'
+
+When sending single patches, please using something like:
+'git send-email -M -1 --to openembedded-devel@lists.openembedded.org --subject-prefix=meta-gnome][hardknott][PATCH'
+
+maintainer: Armin Kuster <akuster808@gmail.com>
